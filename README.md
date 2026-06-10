@@ -78,7 +78,7 @@ cryptoStatArbProject/
 
 **`signals/SignalD_IntraDayMomentum_Research.ipynb`** — research on BTC time-series seasonality (Mon+Tue 20 UTC bar). Gross SR ~1.4 full-sample with six consecutive positive years, but net-negative at 20bps because the strategy is highly turnover-intensive. Research stage; not in v1.
 
-**`combined/CombinedPortfolio.ipynb`** — loads the three Tier 1 signal artifacts, computes the six committed weighting schemes, evaluates IS/OOS/full performance, runs a BTC factor regression on the committed book, and saves the v1 artifact. Includes sensitivity analysis (drop-C, drop-B, GMV vs equal vs eqvol on 2-signal subsets) and a vol-state diagnostic.
+**`combined/CombinedPortfolio.ipynb`** — loads the three signal artifacts, computes the six committed weighting schemes, evaluates IS/OOS/full performance, runs a BTC factor regression on the committed book, and saves the v1 artifact. Includes sensitivity analysis (drop-C, drop-B, GMV vs equal vs eqvol on 2-signal subsets) and a vol-state diagnostic.
 
 ### `quantlib/`
 
